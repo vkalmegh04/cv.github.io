@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: yellow;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+</style>
+</head>
+<body>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="index.html">Home</a>
+    <a href="aboutus.html">About us</a>
+	<a href="project.html">project</a>
+    <a href="Skills.html">Skills</a>
+    <a href="contacts.html">Contact</a>
+  </div>
+</div>
+
+<h2></h2>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+     
+</body>
+<!DOCTYPE html>
+<html>
+<style>
+body {
+  background-image: url('images/kk.jpg');
+}
+</style>
+
+<body>
+
+
+<h2 align="center" style="font-size:300%;"><font color="indigo"><b>Mini Projects</b></font></h2>
+
+<ul>
+ <b>
+   <p1 style="font-size:30px"><font color="black">> Bus Reservation System in C++</p1><br>
+		<h3 style="font-size:25px;"><style="font-size:300%;"><font color="redviolet"><b> It is a bus reservation system.<b></h3>
+		<h3 style="font-size:25px;"><style="font-size:300%;"><font color="redviolet"><b> This provides the information regarding availability of buses.<b></h3>
+		<h3 style="font-size:25px;"><style="font-size:300%;"><font color="redviolet"><b> Here user can see the previous and next location of buses.<b></h3>
+   <p1 style="font-size:30px"><font color="black">> Student management System in DBMS.</p1><br>
+   		<h3 style="font-size:25px;"><style="font-size:300%;"><font color="orange"><b> It is student management databus system.<b></h3>
+		<h3 style="font-size:25px;"><style="font-size:300%;"><font color="orange"><b> In this user can access the necessary data through Internet.<b></h3>
+		<h3 style="font-size:25px;"><style="font-size:300%;"><font color="orange"><b> This is used to keep students academic & personal details.<b></h3>
+   <p1 style="font-size:30px"><font color="black">> Calculator in Android Studio.</p1><br>
+   		<h3 style="font-size:25px;"><style="font-size:300%;"><font color="red"><b> This is used to calculate percentage amount of any value.<b></h3>
+		<h3 style="font-size:25px;"><style="font-size:300%;"><font color="red"><b> This can be used in Shopping Mall to calculate discount.<b></h3>
+
+   <p1 style="font-size:30px"><font color="black">> Sunglasses Website in ASP.NET</p1><br>
+   		<h3 style="font-size:25px;"><style="font-size:300%;"><font color="blue"><b> It is an online shopping website where anyone can buy sunglasses.<b></h3>
+
+
+  </b>
+</ul>
+</body>
+</html>
